@@ -1,0 +1,115 @@
+.row-change
+{
+    border: 1px solid rgba(92,144,144,0.24);
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: rgba(92,144,144,0.24);
+}
+.row-change1
+{
+    border: 1px solid rgba(92,144,144,0.24);
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: rgba(92,144,144,0.24);
+}
+#filter
+{
+    padding: 7px;
+    display: inline;
+    border-radius: 2px;
+    font-family: "Arial";
+    border: 0;
+    color: #000;
+    margin: 1px;
+    background: #337ab7;
+    font-size: 12px;
+    line-height: 15px;
+    color: #fff;
+    width: auto;
+    height: auto;
+    box-sizing: content-box;
+    margin-left: 25px;
+
+}
+#filter1
+{
+    padding: 7px;
+    display: inline;
+    border-radius: 2px;
+    font-family: "Arial";
+    border: 0;
+    margin: 1px;
+    background: #f2dede;
+    font-size: 15px;
+    line-height: 15px;
+    color: #a94442;
+    width: auto;
+    height: auto;
+    box-sizing: content-box;
+    margin-right: 25px;
+    float: right;
+    border-color: #ebccd1;
+    padding-bottom: 3px;
+    display: none;
+
+}
+.table-fixed thead {
+  width: 97%;
+}
+.table-fixed tbody {
+  height: 260px;
+  overflow-y: auto;
+  width: 100%;
+}
+.table-fixed thead, .table-fixed tbody, .table-fixed tr, .table-fixed td, .table-fixed th {
+  display: block;
+}
+.table-fixed tbody td, .table-fixed thead > tr> th {
+  float: left;
+  border-bottom-width: 0;
+
+}
+/* enable absolute positioning */
+.inner-addon {
+  position: relative;
+  width: 50%;
+}
+
+/* style glyph */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align glyph */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+/*.left-addon input  { padding-left:  30px; }*/
+.right-addon input { padding-right: 30px; }
+.iconblue
+{
+  color: blue;
+}
+.iconred
+{
+  color: red;
+}
+
+.alert-box {
+    padding: 10px;
+    /*margin-bottom: 20px;*/
+    border: 1px solid transparent;
+    border-radius: 4px;  
+}
+
+

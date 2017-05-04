@@ -1,0 +1,236 @@
+body{
+  /*overflow: hidden;*/
+}
+.navbar{
+    background-color: #1F2224;
+    border-bottom: 1px solid #2c78a5;
+  }
+  .cliente {
+  margin-top:10px;
+  /*border: #cdcdcd medium solid;*/
+  border-radius: 10px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 10px;
+    }
+  .container{
+    margin-top: 10%
+  }
+  .container.well{
+    margin-top:0%
+  }
+  .well{
+    margin-bottom: 0px;
+    background-color: #2e7088;
+    border: 1px solid #2e7088;
+    color: #ddd;
+    }
+    .panel-default>.panel-heading
+    {
+      background-color: #6679c1;
+      border-radius: 0px;
+      border: 1px solid #6679c1;
+      height: 44px;
+    }
+/*
+  div.cliente
+  {
+    opacity: 0.8;
+    filter: alpha(opacity=50);
+  }*/
+  div.cliente:hover {
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    opacity: 1;
+    filter: alpha(opacity=100);
+    }
+ /* div.panel
+  {
+    opacity: 0.8;
+    filter: alpha(opacity=50);
+  }*/
+  div.panel:hover {
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 4px 5px 11px 3px rgba(204, 202, 202, 0.81)
+    opacity: 1;
+    filter: alpha(opacity=100);
+    }
+  .panel-body .list-group li:hover
+  {
+    background-color:  #fff;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.active-nav .sidenav{
+  width: 0;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .list-group .list-group-item
+{
+  background-color: #222d32;
+  color: #b8c7ce;
+  border: none;
+  }
+
+  
+.sidenav .list-group .list-group-item:hover{
+  background-color: #1a2226;
+  border-left:4px solid #3c8dbc;
+  }
+  .sidenav .list-group .list-group-item:active{
+  background-color: #1a2226;
+  border-left:4px solid #3c8dbc;
+  }
+.dropdown-menu.stylish
+{
+  background-color: #2a7cd0;
+}
+.dropdown-menu.stylish li
+{
+  text-align: center;
+  background-color: #fff;
+  color: #084073;
+}
+.scroll-area{
+  width:100%;
+  min-height:490px;
+  max-height:490px;
+  overflow-y:auto;
+  overflow-x: none;
+  margin-top:0px;
+  font-size:;
+}
+label {display:block;}
+textarea { display:block;
+width: 200px; }
+
+ button:hover
+{
+   background-color: #2a7cd0;
+
+}
+button
+{
+   background-color: #ffffff;
+   border: 1px solid #b3ccff;
+}
+#addcountrylist
+{  
+    width:100%;
+    min-height: 355px;
+    max-height:355px;
+    overflow-y:inherit;
+}
+#addstatelist
+{
+    width:100%;
+    min-height: 400px;
+    max-height:400px;
+    overflow-y:inherit;
+}
+#addcitylist
+{   
+    width:100%;
+    min-height: 400px;
+    max-height:400px;
+    overflow-y:inherit;
+}
+#addlocationlist
+{
+    width:100%;
+    min-height: 400px;
+    max-height:400px;
+    overflow-y:inherit;
+}
+.active1{
+    background-color: #1a2226;
+  border-left:4px solid #3c8dbc;
+  
+}
+.next
+{
+   padding: 5px;
+    display: inline;
+    border-radius: 2px;
+    font-family: "Arial";
+    border: 0;
+    color: #000;
+    margin: 1px;
+    background: #648629;
+    font-size: 12px;
+    line-height: 15px;
+    color: #fff;
+    width: auto;
+    height: auto;
+    box-sizing: content-box;
+   float: right;
+}
+.prev
+{
+   padding: 5px;
+    display: inline;
+    border-radius: 2px;
+    font-family: "Arial";
+    border: 0;
+    color: #000;
+    margin: 1px;
+    background: #f2ab10;
+    font-size: 12px;
+    line-height: 15px;
+    color: #fff;
+    width: auto;
+    height: auto;
+    box-sizing: content-box;
+   float: right;
+}
+.refresh
+{
+   padding: 5px;
+    display: inline;
+    border-radius: 2px;
+    font-family: "Arial";
+    border: 0;
+    color: #000;
+    margin: 1px;
+    background: #337ab7;
+    font-size: 12px;
+    line-height: 15px;
+    color: #fff;
+    width: auto;
+    height: auto;
+    box-sizing: content-box;
+   float: right;
+}
+.iconred
+{
+  color: red;
+}
+.iconblue
+{
+  color: blue;
+}
